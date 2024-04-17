@@ -1,0 +1,56 @@
+.stories-section {
+  &__box {
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid var(--border);
+
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+      height: auto;
+      border-bottom: none;
+    }
+
+    &.reversed {
+      @media screen and (max-width: 600px) {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+  &__image-box {
+    overflow: hidden;
+    flex-basis: 30%;
+    display: flex;
+    height: 100%;
+
+    @media screen and (max-width: 850px) {
+      flex-basis: 50%;
+    }
+    @media screen and (max-width: 600px) {
+      overflow: visible;
+    }
+  }
+
+  &__image {
+    flex-basis: 100%;
+    flex-shrink: 0;
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+  &__text-block {
+    flex-basis: 70%;
+    padding: 0 80px;
+    @media screen and (max-width: 850px) {
+      padding: 0 40px;
+      flex-basis: 50%;
+    }
+    @media screen and (max-width: 600px) {
+      padding: 20px 60px 40px 60px;
+    }
+  }
+  &__text {
+    text-align: justify;
+  }
+}
