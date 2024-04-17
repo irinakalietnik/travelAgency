@@ -41,6 +41,7 @@
     transition: all 1s ease;
     transform: translateY(-110%);
   }
+
   &__overlay-text {
     text-align: center;
   }
@@ -54,6 +55,7 @@
     z-index: 4;
     display: none;
   }
+  
   &__btn-prev {
     position: absolute;
     right: -10px;

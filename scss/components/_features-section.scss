@@ -2,6 +2,7 @@
   &__title {
     text-align: center;
   }
+
   &__block {
     margin: 20px;
     position: relative;
@@ -26,6 +27,7 @@
       grid-template-columns: 1fr;
     }
   }
+  
   &__icon-box {
     border-bottom: 1px solid var(--border);
     border-right: 1px solid var(--border);
