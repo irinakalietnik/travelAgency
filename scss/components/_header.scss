@@ -35,6 +35,12 @@
     }
   }
 
+  &__item {
+   
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   &__icon {
     display: flex;
     gap: 10px;
