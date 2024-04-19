@@ -53,15 +53,15 @@ a {
 
 input:focus {
   outline: none;
-  border: 2px solid var(--input);
+  border: 2px solid $input;
 }
 
 textarea:focus {
   outline: none;
-  border: 2px solid var(--input);
+  border: 2px solid $input;
 }
 
 select:focus {
   outline: none;
-  border: 2px solid var(--input);
+  border: 2px solid $input;
 }
